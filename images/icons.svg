@@ -77,5 +77,8 @@
     <symbol id="icon-facebook" viewBox="0 0 32 32">
       <path d="M21.329 5.313h2.921v-5.088c-0.504-0.069-2.237-0.225-4.256-0.225-4.212 0-7.097 2.649-7.097 7.519v4.481h-4.648v5.688h4.648v14.312h5.699v-14.311h4.46l0.708-5.688h-5.169v-3.919c0.001-1.644 0.444-2.769 2.735-2.769z"></path>
     </symbol>
+    <symbol id="icon-check" viewBox="0 0 42 32">
+      <path fill="#fff" style="fill:var(--color1, #fff);stroke:var(--color1, #fff)" stroke="#fff" stroke-width=".64" d="m6.263 15.205-.22-.21-3.307 3.132 11.651 11.114L38.864 5.89l-3.285-3.134-21.192 20.197-8.124-7.75z"/>
+    </symbol>
   </defs>
 </svg>
