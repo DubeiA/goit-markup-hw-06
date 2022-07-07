@@ -348,13 +348,15 @@
 			<!-- Modal -->
 			<div class="backdrop is-hidden" data-modal>
 				<div class="modal">
-					<button class="modal-btn" type="button" data-modal-close>
+					
+					<form class="form-modal">
+						<button class="modal-btn" type="button" data-modal-close>
 						<svg class="modal-btn-icon">
 							<use href="./images/icons.svg#icon-vector"></use>
 						</svg>
 					</button>
-					<p class="head-form">Залишайте свої дані, ми Вам передзвонимо</p>
-					<form class="form-modal">
+						<p class="head-form">Залишайте свої дані, ми Вам передзвонимо</p>
+						
 						<label class="label-form">
 							<span class="name-span">ім'я</span>
 							<input class="input-form" type="text" name="name" autocomplete="on" />
@@ -456,41 +458,24 @@
 						</li>
 					</ul>
 				</div>
+				<div class="form-footer">
+					<p class="fotter-header">Підпишіться на розсилку</p>
+
+					<label class="label-footer">
+							<input class="input-footer" type="text" name="text" placeholder="Email"/>
+					</label>
+
+					<button class="btn-footer" type="submit">
+						Відправити
+						<svg class="icon-btn-footer">
+							<use href="./images/icons.svg#icon-send"></use>
+						</svg>
+					</button>
+					
+				</div>
 			</div>
 		</footer>
 
 		<script src="./js/modal.js"></script>
 	</body>
 </html>
-
-<!-- <ul class="list list-form">
-								<li сlass="item-form">
-									<label class="decor-label" for="name"> Iм'я </label>
-									<input class="decor-input" type="text" name="name" id="name" />
-									
-								</li>
-								<li сlass="item-form">
-									<input class="decor-input" type="tel" name="tel" id="tel" />
-									<label class="decor-label" for="tel"> Телефон </label>
-								</li>
-								<li сlass="item-form">
-									<input class="decor-input" type="email" name="email" id="email" />
-									<label class="decor-label" for="email">Пошта</label>
-								</li>
-								<li сlass="item-form">
-									<label for="comment">Коментарій</label>
-									<textarea
-										class="textarea"
-										name="comment"
-										id="comment"
-										rows="10"
-										placeholder="Введіть текст"
-									></textarea>
-								</li>
-								<li сlass="item-form">
-									<input type="checkbox" name="confirm" id="confirm" />
-									<label for="confirm">Погоджуюсь на розсилку та приймаю <span>Умови договору</span></label>
-								</li>
-							</ul>
-
-							<button class="btn-submit" type="submit">Відправити</button> -->
