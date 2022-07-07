@@ -1185,6 +1185,8 @@ img {
 
 	padding: 6px 22px;
 
+	background-color: #f5f4fa;
+
 	transition: color var(--animation-cubic),
 	background-color var(--animation-cubic),
 	box-shadow var(--animation-cubic);	
