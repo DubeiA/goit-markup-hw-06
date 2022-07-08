@@ -347,14 +347,16 @@
 			</section>
 			<!-- Modal -->
 			<div class="backdrop is-hidden" data-modal>
+				
 				<div class="modal">
-					
-					<form class="form-modal">
-						<button class="modal-btn" type="button" data-modal-close>
+					<button class="modal-btn" type="button" data-modal-close>
 						<svg class="modal-btn-icon">
 							<use href="./images/icons.svg#icon-vector"></use>
 						</svg>
-					</button>
+						</button>
+						
+					<form class="form-modal">
+						
 						<p class="head-form">Залишайте свої дані, ми Вам передзвонимо</p>
 						
 						<label class="label-form">
@@ -379,7 +381,7 @@
 							</svg>
 						</label>
 
-						<label class="label-form" for="comment">
+						<label class="label-textarea" for="comment">
 							<span class="name-span">Коментарій</span>
 							<textarea class="textarea" name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea>
 						</label>
@@ -460,7 +462,7 @@
 				</div>
 				<div class="form-footer">
 					<p class="fotter-header">Підпишіться на розсилку</p>
-
+					<form>
 					<label class="label-footer">
 							<input class="input-footer" type="text" name="text" placeholder="E-mail"/>
 					</label>
@@ -471,7 +473,7 @@
 							<use href="./images/icons.svg#icon-send"></use>
 						</svg>
 					</button>
-					
+					</form>
 				</div>
 			</div>
 		</footer>

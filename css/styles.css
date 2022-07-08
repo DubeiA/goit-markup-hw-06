@@ -385,9 +385,13 @@ img {
 
 	margin: 0 auto;
 
+	padding: 40px;
+
 	width: 528px;
 	height: 581px;
 	background-color: var(--main-backg-color);
+
+
 
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
@@ -395,12 +399,12 @@ img {
 
 /*----------------------------- MODAL -----------------------------*/
 .modal-btn { 
+	position: absolute;
+	right: 8px;
+	top: 8px;
+
 	display:flex;
 	justify-content: center;
-
-	margin-left: auto;
-	margin-right: 8px ;
-	margin-top: 8px;
 
 	border-radius: 50%;
 	border: 1px solid rgba(0, 0, 0, 0.1);;
@@ -431,18 +435,23 @@ img {
 /* ------------------------------------MODAL DECOR-------------------------- */
 
 .form-modal { 
-	display: flex;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+
+	text-align: center;
+	/* display: flex; */
     /* text-align: center; */
-    flex-direction: column;
+    /* flex-direction: column; */
     /* align-content: flex-start; */
-    align-items: center;
+    /* align-items: center; */
 	
 
 }
 
 /* --------------------Header------------------ */
 .head-form { 
-	padding-bottom: 12px;
+	margin-bottom: 12px;
 
 	font-weight: 700;
 	font-size: 20px;
@@ -458,12 +467,22 @@ img {
 	display: block;
 	position: relative;
 	/* border: 1px solid coral; */
-	margin-left: 40px;
-	margin-right: 40px;
+	/* margin-left: 40px;
+	margin-right: 40px; */
 	margin-bottom: 10px;
 
 	text-align: initial;
 
+}
+
+.label-textarea { 
+		display: block;
+	position: relative;
+	/* border: 1px solid coral; */
+	/* margin-left: 40px;
+	margin-right: 40px; */
+
+	text-align: initial;
 }
 .icon-form {
 	
@@ -554,7 +573,7 @@ img {
 
 	/* border: 1px solid coral; */
 
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .span-confirm {
 	margin-left: 8px;
@@ -577,7 +596,7 @@ img {
 	
 	padding: 10px 55px;
 	margin-top: 30px;
-	margin-bottom: 40px;
+	/* margin-bottom: 40px; */
 	/* margin-left: auto;
 	margin-right: auto; */
 
@@ -1066,7 +1085,7 @@ img {
 
 .form-footer { 
 
-	margin-left: 89px;
+	margin-left: auto;
 
 }
 
