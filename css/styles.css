@@ -498,9 +498,15 @@ img {
 	transition: fill var(--animation-cubic);
 }
 
+
+/* .input-form:required {
+  border-color: #f44336;
+} */
+
 .input-form:focus + .icon-form {
 	fill: var(--hover-color);
 }
+
 
 
 .input-form { 
@@ -524,6 +530,8 @@ img {
 	border-color: var(--hover-color);
 	
 }
+
+
 
 .name-span { 
 
@@ -640,6 +648,9 @@ img {
 	overflow: hidden;
 }
 
+/* .checkbox:required { 
+	
+} */
 
 .box-checked { 
 
